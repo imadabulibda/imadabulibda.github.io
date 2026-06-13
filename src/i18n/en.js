@@ -21,70 +21,91 @@ export const en = {
   about: {
     title: 'About',
     text:
-      'Back-end developer with 5+ years of experience building maintainable web applications and backend services. I specialize in PHP and Laravel, with hands-on experience across REST APIs, SDK integrations, admin backends, testing, and database-driven systems.',
+      'PHP back-end engineer with 6+ years of experience building scalable APIs, data-driven applications, integrations, and production-ready services. I work across Laravel, Symfony, FuelPHP, databases, and backend workflows with a practical focus on reliability and maintainability.',
     hobbies:
-      'I work well in collaborative teams, adapt quickly to new technologies, and focus on practical backend solutions that are reliable, scalable, and easy to maintain.',
+      'I am expanding deeper into infrastructure and DevOps practices, with hands-on interest in Docker, Linux, Kubernetes, and the operational side of building reliable backend systems.',
     photoAlt: 'Imad Abulibda brand mark',
   },
   hero: {
-    label: 'Back-End Developer',
+    label: 'PHP Back-End Engineer',
     title: [
-      { t: 'I build scalable backend systems, ', m: true },
-      { t: 'PHP and Laravel applications, ', m: false },
+      { t: 'I build ', m: true },
+      { t: 'PHP backend systems, ', m: false },
       { t: 'REST APIs, ', m: true },
-      { t: 'SDK integrations ', m: false },
-      { t: 'and maintainable ', m: true },
-      { t: 'server-side products', m: false },
+      { t: 'database-driven services, ', m: false },
+      { t: 'integrations, ', m: true },
+      { t: 'and production-ready applications', m: false },
     ],
     cta: 'Download CV',
+  },
+  capabilities: {
+    title: 'Capabilities',
+    items: [
+      {
+        title: 'Web Development',
+        text: 'Maintainable PHP applications, admin backends, and server-side product features.',
+      },
+      {
+        title: 'SaaS Development',
+        text: 'Backend workflows, integrations, and operational features for multi-user platforms.',
+      },
+      {
+        title: 'Database Development',
+        text: 'Data-driven application logic across MySQL, PostgreSQL, MongoDB, and query-heavy systems.',
+      },
+      {
+        title: 'Application Development',
+        text: 'Reliable REST APIs, SDK integrations, testing, deployment support, and production maintenance.',
+      },
+    ],
   },
   experience: {
     title: 'Experience',
     items: [
       {
         period: 'Jan 2022 — Present',
-        role: 'PHP Back-End Developer',
+        role: 'Back End Developer',
         company: 'Mediastream AG',
         bullets: [
-          'Develop key backend features for a B2B sports betting platform, contributing to product functionality, operations, and system reliability',
-          'Work on SDK integrations and administrative backend enhancements that improve internal workflows and platform performance',
-          'Participate across the software development lifecycle from feature concept through implementation, testing, deployment, and maintenance',
+          'Build backend features for a B2B sports betting platform with emphasis on product functionality, operational workflows, and system reliability',
+          'Work with PHP, APIs, SDK integrations, administrative backend features, and database-backed application logic',
+          'Contribute across implementation, testing, deployment support, and maintenance for production-facing services',
         ],
       },
       {
         period: 'Oct 2021 — Dec 2021',
-        role: 'PHP Developer',
-        company: 'Kubbix',
+        role: 'Back End Developer',
+        company: 'kubbix',
         bullets: [
-          'Focused on backend development for e-commerce and hotel booking systems',
-          'Implemented PHP application features and supported database-backed business workflows',
+          'Delivered freelance backend development for business web applications and data-driven workflows',
+          'Worked on PHP application features, API development, and MySQL-backed functionality',
         ],
       },
       {
         period: 'Aug 2021 — Oct 2021',
-        role: 'PHP Developer',
+        role: 'Back End Developer',
         company: 'ARIXESS',
         bullets: [
-          'Contributed to feature development and testing for a virtual betting platform',
-          'Worked with backend application code and quality checks in a betting-domain product environment',
+          'Contributed backend features and quality checks in a betting-domain product environment',
+          'Worked with API development, MySQL, and PHP application code in an on-site contract role',
         ],
       },
       {
-        period: 'Jun 2018 — Sep 2018, Jun 2020 — Oct 2020',
-        role: 'Web Developer Intern',
-        company: 'New Solutions',
+        period: 'Jun 2020 — Oct 2020',
+        role: 'Laravel Developer',
+        company: 'NewSolutions Company',
         bullets: [
-          'Worked on PHP development, bug fixes, and admin panel improvements for e-commerce platforms',
-          'Supported maintenance and feature delivery across existing web applications',
+          'Developed Laravel application features and backend improvements for existing web products',
+          'Worked with JavaScript, API development, and database-backed application features',
         ],
       },
       {
         period: 'Jun 2018 — Sep 2018',
-        role: 'Web Developer',
-        company: 'Freelancing',
+        role: 'Laravel Developer',
+        company: 'NewSolutions Company',
         bullets: [
-          'Delivered complete web development projects for clients',
-          'Provided IT courses covering Java, PHP, and database management',
+          'Completed an internship focused on Laravel development, bug fixes, and admin panel improvements',
+          'Supported maintenance and feature delivery across PHP web applications',
         ],
       },
     ],
@@ -107,7 +128,7 @@ export const en = {
       frameworks: 'Frameworks & Platforms',
       databases: 'Databases',
       backend: 'Backend & APIs',
-      tools: 'Tools & Workflow',
+      tools: 'Tools, DevOps & Workflow',
     },
   },
   languages: {

@@ -621,6 +621,32 @@ button {
   margin-top: var(--space-2);
 }
 
+.capabilities-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.capability-card {
+  min-width: 0;
+  padding: 1.5rem var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.capability-card__title {
+  margin: 0 0 var(--space-2);
+  font-size: var(--font-size-md);
+  font-weight: 600;
+}
+
+.capability-card__text {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  line-height: 1.55;
+  color: var(--color-body);
+}
+
 .skills-groups {
   display: flex;
   flex-direction: column;
@@ -1111,6 +1137,10 @@ button {
     text-align: left;
   }
 
+  .capabilities-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .skills-groups {
     gap: var(--space-8);
   }
@@ -1231,6 +1261,10 @@ button {
 
   .card__bullets {
     padding-left: 1.1rem;
+  }
+
+  .capabilities-grid {
+    grid-template-columns: 1fr;
   }
 
   .language-list {

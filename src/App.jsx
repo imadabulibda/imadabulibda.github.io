@@ -1,6 +1,7 @@
 import { Header } from './components/Header.jsx'
 import { Hero } from './components/Hero.jsx'
 import { About } from './components/About.jsx'
+import { Capabilities } from './components/Capabilities.jsx'
 import { Experience } from './components/Experience.jsx'
 import { Education } from './components/Education.jsx'
 import { Skills } from './components/Skills.jsx'
@@ -17,6 +18,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <Capabilities />
         <Experience />
         <Education />
         <Skills />
